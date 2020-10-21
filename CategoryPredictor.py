@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
+
 class CategoryPredictor:
 	def __init__(self, docs, labels):
 		if not isinstance(docs, list):
